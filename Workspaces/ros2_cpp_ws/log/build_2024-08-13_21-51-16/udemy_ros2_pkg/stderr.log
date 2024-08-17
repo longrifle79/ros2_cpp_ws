@@ -1,8 +1,0 @@
-In file included from [01m[K/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg/src/publisher.cpp:1[m[K:
-[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/copy_all_parameter_values.hpp: No such file or directory
-  171 | #include [01;31m[K"rclcpp/copy_all_parameter_values.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/publisher.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

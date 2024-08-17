@@ -1,0 +1,33 @@
+Building the ROS Package without debugging:
+	- Move to file path of package
+	- Colcon Build 
+	- Source install/setup.bash 	//this may be already in the bashrc file
+	- ros2 run udemy_ros2_pkg publisher
+	- // to check if working:
+		- ros2 node list // in another terminal
+		- ros2 topic echo /hello_my_world
+	
+Building the ROS Package WITH debugging:
+	// MAKE SURE GDB SERVER IS INSTALLED; //sudo apt-install gdbserver
+	- Move to file path of package
+	- colcon build --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo 
+	- Source install/setup.bash 	//this may be already in the bashrc file
+	- ros2 run --prefix 'gdbserver localhost:3000' udemy_ros2_pkg publisher
+
+Setting up the Debugger:
+	- create launch.json 
+		{
+			"version": "0.2.0",
+			"configurations":
+			[
+				"name": "C++ Debugger",
+				"request": "launch",
+				"type": "cppdbg",
+				"miDebuggerServerAddress": "localhost:3000",
+				"cwd": "/",
+				"program": "home/usr/Workspaces../usemy_ros2_pkg/publisher"
+			]
+		}
+		
+Run Debugger in VSCode:
+	- Go to VSCode and under "Run" select Run Debugger
