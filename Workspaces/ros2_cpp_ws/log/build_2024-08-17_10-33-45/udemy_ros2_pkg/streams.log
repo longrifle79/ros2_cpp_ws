@@ -1,0 +1,64 @@
+[0.008s] Invoking command in '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg
+[0.104s] -- The C compiler identification is GNU 13.2.0
+[0.179s] -- The CXX compiler identification is GNU 13.2.0
+[0.197s] -- Detecting C compiler ABI info
+[0.279s] -- Detecting C compiler ABI info - done
+[0.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.289s] -- Detecting C compile features
+[0.289s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.390s] -- Detecting CXX compiler ABI info - done
+[0.402s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.403s] -- Detecting CXX compile features
+[0.403s] -- Detecting CXX compile features - done
+[0.407s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.541s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.628s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.663s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.706s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.721s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.739s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.847s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.850s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.928s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.945s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.967s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.050s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.069s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.170s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.170s] -- Configured cppcheck include dirs: 
+[1.170s] -- Configured cppcheck exclude dirs and/or files: 
+[1.172s] -- Added test 'lint_cmake' to check CMake code style
+[1.175s] -- Added test 'uncrustify' to check C / C++ code style
+[1.175s] -- Configured uncrustify additional arguments: 
+[1.176s] -- Added test 'xmllint' to check XML markup files
+[1.178s] -- Configuring done (1.2s)
+[1.188s] -- Generating done (0.0s)
+[1.190s] -- Build files have been written to: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
+[1.198s] Invoked command in '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg
+[1.200s] Invoking command in '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j8 -l8
+[1.244s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[5.527s] [100%] [32m[1mLinking CXX executable publisher[0m
+[5.723s] [100%] Built target publisher
+[5.733s] Invoked command in '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j8 -l8
+[5.762s] Invoking command in '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
+[5.769s] -- Install configuration: ""
+[5.770s] -- Execute custom install script
+[5.770s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher
+[5.779s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[5.786s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[5.794s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[5.802s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[5.810s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[5.818s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[5.826s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[5.834s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[5.842s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[5.850s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[5.858s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[5.866s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[5.874s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[5.882s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[5.890s] -- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[5.900s] Invoked command in '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg

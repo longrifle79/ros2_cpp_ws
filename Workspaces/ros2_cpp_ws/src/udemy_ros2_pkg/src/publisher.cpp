@@ -31,7 +31,6 @@ class HelloWorldPubNode : public rclcpp::Node
             size_t counter_ = 0;
 };
 
-
 int main(int argc, char * argv[])
 {
     rclcpp::init(argc, argv);

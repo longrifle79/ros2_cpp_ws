@@ -1,6 +1,6 @@
 Building the ROS Package without debugging:
 	- Move to file path of package
-	- Colcon Build 
+	- Colcon Build // colcon build --symlink-install 
 	- Source install/setup.bash 	//this may be already in the bashrc file
 	- ros2 run udemy_ros2_pkg publisher
 	- // to check if working:
@@ -10,7 +10,7 @@ Building the ROS Package without debugging:
 Building the ROS Package WITH debugging:
 	// MAKE SURE GDB SERVER IS INSTALLED; //sudo apt-install gdbserver
 	- Move to file path of package
-	- colcon build --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo 
+	- colcon build --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo // RELease WITH DEBug INFO 
 	- Source install/setup.bash 	//this may be already in the bashrc file
 	- ros2 run --prefix 'gdbserver localhost:3000' udemy_ros2_pkg publisher
 
@@ -31,3 +31,24 @@ Setting up the Debugger:
 		
 Run Debugger in VSCode:
 	- Go to VSCode and under "Run" select Run Debugger
+
+
+Build in VSCode:
+    - create tasks.json
+    {
+            "version": "2.0.0",
+    "tasks": 
+    [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "cd /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws && source /opt/ros/jazzy/setup.bash && colcon build --simlink-install"
+        },
+
+        {
+            "label": "debug",
+            "type": "shell",
+            "command": "cd /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws && source /opt/ros/jazzy/setup.bash && colcon build --simlink-install"
+        }
+    ]
+    }

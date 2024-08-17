@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000650] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000792] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.007365] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.008213] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg'], 'cwd': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nuc', 'SSH_CLIENT': '136.144.43.32 29380 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh', 'HOME': '/home/nuc', 'TERM_PROGRAM_VERSION': '1.92.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-aa31ac21-c1b9-4b52-a7ed-f8ebf7552ee2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nuc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '191', 'PATH': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d6512ef4f7.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '136.144.43.32 29380 192.168.68.117 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.022327] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099833] (-) TimerEvent: {}
+[0.200105] (-) TimerEvent: {}
+[0.207708] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.215016] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.240089] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.249381] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.262558] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.276795] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300198] (-) TimerEvent: {}
+[0.339891] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.341314] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400315] (-) TimerEvent: {}
+[0.404503] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.468403] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.482789] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.500418] (-) TimerEvent: {}
+[0.571679] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.571927] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.572008] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.573153] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.576405] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.576544] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.577122] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.578198] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[0.588465] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.590625] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg\n'}
+[0.597776] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[0.599408] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'build'}
+[0.599435] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', '--', '-j8', '-l8'], 'cwd': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nuc', 'SSH_CLIENT': '136.144.43.32 29380 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh', 'HOME': '/home/nuc', 'TERM_PROGRAM_VERSION': '1.92.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-aa31ac21-c1b9-4b52-a7ed-f8ebf7552ee2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nuc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '191', 'PATH': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d6512ef4f7.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '136.144.43.32 29380 192.168.68.117 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.600648] (-) TimerEvent: {}
+[0.653362] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.700813] (-) TimerEvent: {}
+[0.801058] (-) TimerEvent: {}
+[0.901303] (-) TimerEvent: {}
+[1.001555] (-) TimerEvent: {}
+[1.101810] (-) TimerEvent: {}
+[1.202068] (-) TimerEvent: {}
+[1.302323] (-) TimerEvent: {}
+[1.402574] (-) TimerEvent: {}
+[1.502824] (-) TimerEvent: {}
+[1.603069] (-) TimerEvent: {}
+[1.703336] (-) TimerEvent: {}
+[1.803610] (-) TimerEvent: {}
+[1.903895] (-) TimerEvent: {}
+[2.004171] (-) TimerEvent: {}
+[2.104451] (-) TimerEvent: {}
+[2.204725] (-) TimerEvent: {}
+[2.305029] (-) TimerEvent: {}
+[2.405337] (-) TimerEvent: {}
+[2.505614] (-) TimerEvent: {}
+[2.605900] (-) TimerEvent: {}
+[2.706155] (-) TimerEvent: {}
+[2.806441] (-) TimerEvent: {}
+[2.906717] (-) TimerEvent: {}
+[3.007013] (-) TimerEvent: {}
+[3.107290] (-) TimerEvent: {}
+[3.207563] (-) TimerEvent: {}
+[3.307841] (-) TimerEvent: {}
+[3.408127] (-) TimerEvent: {}
+[3.508401] (-) TimerEvent: {}
+[3.608675] (-) TimerEvent: {}
+[3.708927] (-) TimerEvent: {}
+[3.809194] (-) TimerEvent: {}
+[3.909479] (-) TimerEvent: {}
+[4.009787] (-) TimerEvent: {}
+[4.110081] (-) TimerEvent: {}
+[4.210364] (-) TimerEvent: {}
+[4.310651] (-) TimerEvent: {}
+[4.410939] (-) TimerEvent: {}
+[4.511223] (-) TimerEvent: {}
+[4.611501] (-) TimerEvent: {}
+[4.711815] (-) TimerEvent: {}
+[4.812112] (-) TimerEvent: {}
+[4.912385] (-) TimerEvent: {}
+[5.012656] (-) TimerEvent: {}
+[5.112941] (-) TimerEvent: {}
+[5.213218] (-) TimerEvent: {}
+[5.313482] (-) TimerEvent: {}
+[5.413738] (-) TimerEvent: {}
+[5.513994] (-) TimerEvent: {}
+[5.614285] (-) TimerEvent: {}
+[5.714562] (-) TimerEvent: {}
+[5.814820] (-) TimerEvent: {}
+[5.915070] (-) TimerEvent: {}
+[6.015319] (-) TimerEvent: {}
+[6.115574] (-) TimerEvent: {}
+[6.215828] (-) TimerEvent: {}
+[6.316079] (-) TimerEvent: {}
+[6.416334] (-) TimerEvent: {}
+[6.516588] (-) TimerEvent: {}
+[6.616858] (-) TimerEvent: {}
+[6.717116] (-) TimerEvent: {}
+[6.817376] (-) TimerEvent: {}
+[6.917650] (-) TimerEvent: {}
+[7.017938] (-) TimerEvent: {}
+[7.118212] (-) TimerEvent: {}
+[7.218483] (-) TimerEvent: {}
+[7.318739] (-) TimerEvent: {}
+[7.419105] (-) TimerEvent: {}
+[7.519431] (-) TimerEvent: {}
+[7.573150] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[7.619547] (-) TimerEvent: {}
+[7.713838] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] Built target publisher\n'}
+[7.719647] (-) TimerEvent: {}
+[7.730609] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[7.751608] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'install'}
+[7.759643] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg'], 'cwd': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nuc', 'SSH_CLIENT': '136.144.43.32 29380 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh', 'HOME': '/home/nuc', 'TERM_PROGRAM_VERSION': '1.92.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-aa31ac21-c1b9-4b52-a7ed-f8ebf7552ee2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nuc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '191', 'PATH': '/home/nuc/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': '', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d6512ef4f7.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '136.144.43.32 29380 192.168.68.117 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.766821] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[7.767274] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.767561] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher\n'}
+[7.767752] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg\n'}
+[7.768067] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg\n'}
+[7.768248] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[7.768396] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[7.768555] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh\n'}
+[7.768712] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv\n'}
+[7.768922] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash\n'}
+[7.769076] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh\n'}
+[7.769238] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh\n'}
+[7.769385] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv\n'}
+[7.769488] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv\n'}
+[7.777810] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg\n'}
+[7.778060] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake\n'}
+[7.778189] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake\n'}
+[7.778345] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml\n'}
+[7.780376] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[7.814405] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 0}
+[7.815232] (-) EventReactorShutdown: {}
