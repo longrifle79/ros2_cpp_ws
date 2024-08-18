@@ -7,6 +7,7 @@
             "type": "shell",
             "command": "cd /home/nuc/Desktop/ROS_Tutorials/Workspaces/ros2_cpp_ws && source /opt/ros/jazzy/setup.bash && colcon build --symlink-install"
         },
+        
         {
             "label": "debug",
             "type": "shell",
